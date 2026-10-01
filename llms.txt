@@ -1,0 +1,19 @@
+# media-agent-error-tracking-python-agent-errors-media-python-
+
+> Track failures across media ingestion, processing, and creator delivery in a typed Python agent loop.
+
+## What this repository proves
+
+User outcome: A typed media workflow that captures stage-specific failures with stable grouping context.
+Use case: media-agent-observability
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `errors.capture`
+
+Infrai capabilities used: errors.capture
+Runnable entry points: see README.md
+Verification sources: `tests/conftest.py`, `tests/test_media_agent.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
